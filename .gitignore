@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Output
+output/
+
+# Archives
+*.zip
+
+# Environment
+.env
+
+# Text files
+*.txt
+
+# Logs
+*.log
