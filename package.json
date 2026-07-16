@@ -1,0 +1,16 @@
+{
+  "name": "shipmentia-metrics-export",
+  "version": "1.0.0",
+  "description": "Pulls Prometheus history + live exporter snapshots + Postgres query-tracker data into a single timestamped zip for offline load diagnosis.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "pg": "^8.13.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
